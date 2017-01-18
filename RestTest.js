@@ -9,6 +9,7 @@ var options = {
     "appkey": "53253c29-f4d4-4718-89dc-349941150dc4",
     "content-type": "application/json",
     "cache-control": "no-cache",
+    "Accept":"application/json",
     "postman-token": "f2b5a8fc-0fea-9926-b74c-86d42fc0c563"
   }
 };
