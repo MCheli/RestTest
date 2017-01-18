@@ -9,6 +9,7 @@ var options = {
     "appkey": "REMOVED-SECRET",
     "content-type": "application/json",
     "cache-control": "no-cache",
+    "Accept":"application/json",
     "postman-token": "f2b5a8fc-0fea-9926-b74c-86d42fc0c563"
   }
 };
