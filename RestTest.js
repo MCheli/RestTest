@@ -2,7 +2,7 @@ var http = require("https");
 
 var options = {
   "method": "GET",
-  "hostname": "academic-dev2.cloud.thingworx.com",
+  "hostname": "academic-staging1.cloud.thingworx.com",
   "port": null,
   "path": "/Thingworx/Things/SocratesChild/Properties/name",
   "headers": {
@@ -26,5 +26,9 @@ var req = http.request(options, function (res) {
     console.log(body.toString());
   });
 });
+
+  req.on("error", function() {
+      console.log("Oops")
+  })
 
 req.end();
